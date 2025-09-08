@@ -91,8 +91,8 @@ border-bottom: 1px solid #e7e9fc;
     display: block;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: #404BBF;
 }
 
@@ -114,6 +114,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .page {
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+     url(../images/people-office-item.jpg);
     margin: 0px;
     padding-top: 188px;
     padding-bottom: 188px;
