@@ -94,8 +94,6 @@ border-bottom: 1px solid #e7e9fc;
 .nav-list:hover,
 .nav-list:focus {
 color: #404BBF;
-/* border-radius: 2px;
-border-bottom: 4px solid #404BBF; */
 }
 
 .nav .nav-list.studio:active {
@@ -376,4 +374,19 @@ ul {
 .contai-featu {
 }
 
-.icon {}
+.icon {
+    text-decoration: none;
+    text-align: center;
+}
+
+.team-icon {
+    display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding: 0;
+        margin: 8px 0 0;
+}
+
+.icon:hover {
+    color: #404bbf;
+}
