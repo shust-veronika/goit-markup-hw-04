@@ -135,6 +135,56 @@ color: #404BBF;
     transition-property: text-decoration, color, font-weight, font-size, line-height, letter-spacing, display, padding;
 }
 
+.icon-strategy{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+        margin-bottom: 8px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.icon-featu {
+}
+
+.social-title {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.icon-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 20px;
+    fill: #f4f4fd;
+}
+
+ .footer-icon {
+    gap: 16px;
+}
+
+.icon-container {
+    justify-content: center;
+}
+
+.icon-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
 .link:hover,
 .link:focus {
     color: #404BBF;
