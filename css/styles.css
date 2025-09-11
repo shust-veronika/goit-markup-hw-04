@@ -237,16 +237,6 @@ svg {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contai-featu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
-}
 
 .container {
     max-width: 1158px;
@@ -303,11 +293,20 @@ svg {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-
-
-.icon-strategy {
-    border: 1px solid #8e8f99;
+.icon-container /* .icon-strategy */ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
     border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+/* .icon-strategy {
+ border: 1px solid #8e8f99;
+    border-radius: 4px; 
     width: 264px;
     height: 112px;
     background-color: #f4f4fd;
@@ -319,7 +318,7 @@ svg {
     width: 64px;
     height: 64px;
 }
-
+ */
 .icon-featu {
 width: 64;
 height: 64;
@@ -423,6 +422,7 @@ height: 64;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .picture:hover {
